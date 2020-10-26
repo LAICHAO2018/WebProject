@@ -4,8 +4,9 @@
     <list default="true" id="786da03e-0f1e-4474-ba40-1bfe97f83ec8" name="默认更改列表" comment="">
       <change afterPath="$PROJECT_DIR$/../../GroupId/src/main/resources/applicationContext.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../UseMySQL_qt/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnDay01/CountEr.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearnDay01/ListShow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnDay01/Interpolation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnDay01/VueTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearnDay01/v-once.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../myQtProject/QStackedWidget/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../myQtProject/QStackedWidget/QStackedWidget.pro" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../myQtProject/QStackedWidget/dialog.cpp" afterDir="false" />
@@ -49,7 +50,9 @@
       <change afterPath="$PROJECT_DIR$/../../myQtProject/mysqlDemo/showmainwindow.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../UseMySQL_qt/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../myQtProject/mysqlDemo/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnDay01/CountEr.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDay01/CountEr.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LearnDay01/HelloVueJs.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDay01/HelloVueJs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnDay01/ListShow.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDay01/ListShow.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../myQtProject/mysql_manager/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +87,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -97,7 +100,8 @@
       <updated>1603609659687</updated>
       <workItem from="1603609663228" duration="274000" />
       <workItem from="1603610160420" duration="558000" />
-      <workItem from="1603610736530" duration="3084000" />
+      <workItem from="1603610736530" duration="6232000" />
+      <workItem from="1603700049883" duration="3020000" />
     </task>
     <servers />
   </component>
@@ -113,9 +117,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="637" y="238" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603609701266" />
-    <state x="267" y="232" key="SettingsEditor" timestamp="1603611288703">
+    <state x="267" y="232" key="SettingsEditor" timestamp="1603713504346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="267" y="232" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603611288703" />
+    <state x="267" y="232" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603713504346" />
   </component>
 </project>

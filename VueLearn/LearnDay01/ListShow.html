@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <meta charset="UTF-8">
+  <title>Title</title>
 </head>
 <body>
 <div id="app">
-    <ul>
-        <li v-for="item in movies">{{item}}</li>
-    </ul>
+  <ul>
+    <li v-for="item in movies">{{item}}</li>
+  </ul>
 </div>
 <script src="../js/vuejs/vue.js"></script>
 <script>
-    const app = new Vue({
-        el: '#app',
-        data: {
-            message: "Hello Vue",
-            movies: ['One', 'Two', 'Three', 'Four', 'Five']
-        }
-    })
-    app.movies.push('Six');     /// 添加数据
+  const app = new Vue({
+    el: '#app',
+    data: {
+      message: "Hello Vue",
+      movies: ['One', 'Two', 'Three', 'Four', 'Five']
+    }
+  })
+  app.movies.push('Six');     /// 添加数据
 </script>
 
 </body>
