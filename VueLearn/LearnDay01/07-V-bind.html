@@ -3,6 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
+  <style>
+    .active {
+      color: red;
+    }
+
+    .line {
+      color: blue;
+    }
+  </style>
 </head>
 <body>
 <div id="app">
@@ -10,6 +19,9 @@
   <a v-bind:href="clickUrl">百度一下，你就知道</a>
   <br><!--  语法糖的写法-->
   <a :href="clickUrl">百度一下，你就知道</a>
+  <h2 v-bind:class="active">{{message}}</h2>
+  <h2 v-bind:class="{active:isActive,line:isLine}">{{message}}</h2>
+  <button v-on:click="changeColor">改变颜色</button>
 </div>
 <script src="../js/vuejs/vue.js"></script>
 <script>
@@ -18,7 +30,15 @@
     data: {
       message: "Hello Vue",
       imgUrl: 'https://pics6.baidu.com/feed/caef76094b36acaf8eadcffe90c1f31701e99c07.png?token=0297430446fe1ecca973981c439107b2',
-      clickUrl: 'https://www.baidu.com'
+      clickUrl: 'https://www.baidu.com',
+      active: 'active',
+      isActive: true,
+      isLine: true
+    },
+    methods: {
+      changeColor: function () {
+        this.isLine = !this.isLine;
+      }
     }
   })
 </script>
