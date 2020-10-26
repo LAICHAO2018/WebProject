@@ -25,8 +25,20 @@
       ]
     },
     computed: {   // 计算属性,性能更好
-      fullName: function () {
-        return this.firstName + ' ' + this.lastName;
+      // fullName: function () {
+      //   return this.firstName + ' ' + this.lastName;
+      // },
+      fullName: { // 完整写法
+        set: function (newName) {
+          // ***** 一般为空 *****
+          console.log("output" + newName);
+          const names = newName.split(' ');
+          this.firstName = names[0];
+          this.lastName = names[1];
+        },
+        get: function () {
+          return this.firstName + ' ' + this.lastName;
+        }
       },
       totalPrice: function () {
         let sum = 0;
