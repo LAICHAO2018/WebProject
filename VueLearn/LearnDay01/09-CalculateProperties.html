@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <h2>{{getFullName()}}</h2>
+  <!--  使用计算属性-->
+  <h2>{{fullName}}</h2>
+  <h2>总价格：{{totalPrice}}</h2>
+</div>
+<script src="../js/vuejs/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+      firstName: 'Lai',
+      lastName: 'Chao',
+      books: [
+        {id: 110, name: 'C++ Primer', price: 100},
+        {id: 111, name: '深入理解计算机原理', price: 99},
+        {id: 112, name: '现代操作系统', price: 98}
+      ]
+    },
+    computed: {   // 计算属性,性能更好
+      fullName: function () {
+        return this.firstName + ' ' + this.lastName;
+      },
+      totalPrice: function () {
+        let sum = 0;
+        for (let i = 0; i < this.books.length; i++) {
+          sum += this.books[i].price;
+        }
+        return sum;
+      }
+    },
+    methods: {
+      getFullName: function () {
+        return this.firstName + ' ' + this.lastName;
+      }
+    }
+  })
+</script>
+</body>
+</html>
