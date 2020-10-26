@@ -5,7 +5,7 @@
   <title>Title</title>
   <style>
     .active {
-      color: red;
+      color: #ff0000;
     }
 
     .line {
@@ -21,6 +21,9 @@
   <a :href="clickUrl">百度一下，你就知道</a>
   <h2 v-bind:class="active">{{message}}</h2>
   <h2 v-bind:class="{active:isActive,line:isLine}">{{message}}</h2>
+  <!--  类的个数很多的时候可以放在数组中-->
+  <h2 v-bind:class="[active,line]">{{message}}</h2>
+  <h2 v-bind:class="getClasses()">{{message}}</h2>
   <button v-on:click="changeColor">改变颜色</button>
 </div>
 <script src="../js/vuejs/vue.js"></script>
@@ -38,6 +41,9 @@
     methods: {
       changeColor: function () {
         this.isLine = !this.isLine;
+      },
+      getClasses: function () {
+        return [this.active, this.line];
       }
     }
   })

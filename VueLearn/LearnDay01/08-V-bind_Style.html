@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="app">
+  <!--  对象中键值对：值不加引号会被当成变量使用-->
+  <h2 v-bind:style="getStyle()">{{message}}</h2>
+  <h2 v-bind:style="[baseStyles]">{{message}}</h2>
+</div>
+<script src="../js/vuejs/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: '#app',
+    data: {
+      message: "Hello Vue",
+      finalSize: '60px',
+      baseStyles:{fontSize: '60px'}
+    },
+    methods: {
+      getStyle: function () {
+        return {fontSize: this.finalSize, color: 'red',backgroundColor:'blue'};
+      }
+    }
+  })
+</script>
+</body>
+</html>
