@@ -46,8 +46,12 @@
       <change afterPath="$PROJECT_DIR$/../../myQtProject/mysqlDemo/showmainwindow.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../myQtProject/mysqlDemo/showmainwindow.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../UseMySQL_qt/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../myQtProject/mysqlDemo/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearnDay01/Instructions.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDay01/Instructions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnDay01/CountEr.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDay01/03-CountEr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnDay01/HelloVueJs.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDay01/01-HelloVueJs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnDay01/Instructions.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDay01/06-Instructions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnDay01/Interpolation.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDay01/05-Interpolation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnDay01/ListShow.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDay01/02-ListShow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnDay01/VueTemplate.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearnDay01/04-VueTemplate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../myQtProject/mysql_manager/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +100,7 @@
       <workItem from="1603609663228" duration="274000" />
       <workItem from="1603610160420" duration="558000" />
       <workItem from="1603610736530" duration="6232000" />
-      <workItem from="1603700049883" duration="4234000" />
+      <workItem from="1603700049883" duration="4358000" />
     </task>
     <servers />
   </component>
